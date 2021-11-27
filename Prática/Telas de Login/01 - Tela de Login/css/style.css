@@ -1,0 +1,28 @@
+h3 {
+   font-family: Arial;
+}
+
+.form-control {
+   border-radius: 20px;
+   margin: auto;
+   width: 85%;
+}
+
+.form-control:hover {
+   width: 96%;
+}
+
+.form-label {
+   font-size: 15pt;
+}
+       
+button[type="submit"] {
+   border:none;
+   border-radius:40px;
+   width:40%;
+}
+
+button[type="submit"]:hover {
+   background-color: #00a000;
+   transition: 1s;
+}

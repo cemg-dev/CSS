@@ -1,0 +1,36 @@
+body {
+   margin:0px;
+   padding:0px;
+   display: flex;
+}
+
+h3 {
+   font-family: Arial;
+}
+
+div[class="card"] {
+   width: 50vw;
+   height:100vh;
+   align-items: center;
+   border:none;
+   border-radius:0px;
+}
+
+input[class="form-control"] {
+   margin: auto;
+}
+
+
+label[class="form-label"] {
+   font-size: 15pt;
+}
+       
+button[type="submit"] {
+   border:none;
+   width:50%;
+}
+
+button[type="submit"]:hover {
+   background-color: #00a000;
+   transition: 1s;
+}
