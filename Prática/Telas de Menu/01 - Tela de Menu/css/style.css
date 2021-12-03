@@ -1,0 +1,80 @@
+.navbar {
+   background-color: black;
+}
+
+.nav-link {
+   width: 12vw;
+   height: 6.8vh;
+   font-size: 14pt;
+   padding: 0px;
+   margin: 0px;
+}
+
+.nav-item {
+   padding:0px;
+   border: Solid 2pt black;
+}
+
+.nav-item:hover {
+   border-bottom-color: rgb(30, 216, 55, 0.9);
+}
+
+.dropdown-menu {
+   background-color: black;
+}
+
+.dropdown-item {
+   color: white;
+   font-size: 14pt;
+}
+
+.dropdown-item:hover {
+   background-color: rgb(30, 216, 55, 0.9);
+   color: white;
+}
+
+.form-control {
+   margin-right: 2%;
+   border-radius: 0px;
+}
+
+.form-control:focus {
+   border-color: rgb(30, 216, 55);
+   box-shadow: none;
+}
+
+.btn {
+   background-color: rgba(122, 2, 219, 0.671);
+   width:50%;
+   border: none;
+   border-radius: 0px;
+   transition: 0.5s;
+}
+
+.btn:hover {
+   background-color: rgb(30, 216, 55);
+   transition: 0.5s;
+}
+
+#box {
+   display:flex;
+}
+
+h3 {
+   font-family: Arial;
+}
+
+.card {
+   width: 50vw;
+   height:91vh;
+   align-items: center;
+   border:none;
+   border-radius:0px;
+}
+
+.card-box {
+   width: 49vw;
+   height: 80vh;
+   border: none;
+   border-radius:0px;
+}
