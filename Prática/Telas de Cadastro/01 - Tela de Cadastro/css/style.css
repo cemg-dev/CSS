@@ -1,0 +1,24 @@
+.form-control, .btn {
+    border-radius: 20px;
+}
+.col {
+    margin-top: 25vh;
+    text-align: center;
+}
+.form-label, .form-text {
+    margin-left: 15px;
+}
+
+.btn {
+    float: left;
+}
+
+.row {
+    text-align: left;
+} 
+
+#form_cadastro_prestador {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    text-align: center;
+}
