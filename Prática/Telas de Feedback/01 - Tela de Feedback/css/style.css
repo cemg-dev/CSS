@@ -1,0 +1,88 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, purple, cyan);
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 5% auto;
+    border: solid 1pt rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    text-align: center;
+    width: 43%;
+    height: 73%;
+    transition: 0.75s;
+}
+
+.container:hover {
+    border-color: cyan;
+    margin-top: 3%;
+    width: 48%;
+    height: 79%;
+}
+
+.label_form {
+    color: azure;
+    margin: 0px auto;
+    height: 8%;
+    width: 95%;
+}
+
+.box {
+    background-image: linear-gradient(to bottom right, purple, cyan);
+    width: fit-content;
+    height: 90%;
+    margin: 0px auto;
+    border-radius: 20px;
+    border-top: solid 2pt azure;
+    border-bottom: solid 2pt azure;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.box:hover {
+    border-top-color: red;
+    border-bottom-color: yellow;
+}
+
+.form_item {
+    color: azure;
+    margin: 0.5rem auto;
+    width: 95%;
+    height: fit-content;
+}
+
+.stars_list {
+    border: solid 1pt black;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 0.5rem auto;
+    padding: 0.2rem;
+}
+
+.star {
+    width: 1.5rem;
+}
+
+.btn {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    color: azure;
+    border: solid 1pt black;
+    border-radius: 20px;
+    font-size: medium;
+    width: 50%;
+    height: 2.5rem;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to bottom right, purple, cyan);
+    border-color: cyan;
+    width: 70%;
+}
