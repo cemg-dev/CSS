@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="" action="">
+        <fieldset>
+            <legend>Dados da Conta</legend>
+            <label for="campo_email">Email</label>
+            <br>
+            <input class="field_box" type="email" id="campo_email" placeholder="seuemail@gmail.com">
+            <br>
+            <label for="campo_senha">Senha</label>
+            <br>
+            <input class="field_box" type="password" id="campo_senha">
+            <br>
+            <label>Planos</label>
+            <br>
+            <div class="card">
+                <input type="radio" name="plano"> Gratuito
+            </div>
+            <div class="card">
+                <input type="radio" name="plano"> Sigma
+            </div>
+            <div>
+                <input type="radio" name="plano"> Alpha
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="campo_nome">Nome</label>
+            <br>
+            <input class="field_box" type="text" name="nome" id="campo_nome">
+            <br>
+            <label>Sexo</label>
+            <br>
+            <input type="radio" name="sexo" value="masculino"> Masculino
+            <br>
+            <input type="radio" name="sexo" value="feminino"> Feminino
+            <br>
+            <input type="radio" name="sexo" value="outros"> Outros
+            <br>
+            <label for="campo_nascimento">Data de Nascimento</label>
+            <br>
+            <input class="field_box" type="date" name="data_de_nascimento" id="campo_nascimento">
+            <br>
+            <label for="campo_contato">Contato</label>
+            <br>
+            <input class="field_box" type="tel" name="contato" id="campo_contato" placeholder="(##) #####-####">
+            <br>
+            <label for="campo_bio">Bio</label>
+            <br>
+            <textarea class="field_box" name="bio" id="campo_bio" cols="20" rows="10"></textarea>
+            <br>
+            <label>Tags</label>
+            <br>
+            <div class="itens">
+                <div class="tag">
+                    <input type="checkbox" name="tag" value="empreendedor" checked> Empreendedor
+                </div>
+                <div class="tag">
+                    <input type="checkbox" name="tag" value="profissional"> Profissional
+                </div>
+                <div class="tag">
+                    <input type="checkbox" name="tag" value="estudante"> Estudante
+                </div>
+                <div class="tag">
+                    <input type="checkbox" name="tag" value="geek"> Geek
+                </div>
+                <div class="tag">
+                    <input type="checkbox" name="tag" value="programador"> Programador
+                </div>
+                <div class="tag">
+                    <input type="checkbox" name="tag" value="influencer"> Influencer
+                </div>
+                <div class="tag">
+                    <input type="checkbox" name="tag" value="influencer"> Aposentado
+                </div>
+                <div class="tag">
+                    <input type="checkbox" name="tag" value="influencer"> Desempregado
+                </div>
+            </div>
+            <br>
+            <input class="btn" id="btn_submit" type="submit" value="Cadastrar">
+            <input class="btn" id="btn_reset" type="reset" value="Resetar">
+        </fieldset>
+    </form>
+</body>
+</html>
