@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    padding: 2rem;
+    width: 95.2vw;
+    background-color: black;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul {
+    display: flex;
+    gap: .8rem;
+    list-style: none;
+    align-items: center;
+}
+
+header nav ul a {
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem;
+}
+
+header nav ul a:hover {
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+header nav ul a:last-child {
+    background-image: linear-gradient(to right, blue, cyan);
+}
+
+.content {
+    display: flex;
+    gap: .8rem;
+    margin: 110px 2px 2px 2px;
+}
+
+.content aside, .content main {
+    height: auto;
+    justify-content: space-between;
+}
+
+.content aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 25%;
+    background-color:lightslategray;
+    border: solid 1px black;
+}
+
+.content aside figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+    padding: .8rem;
+}
+
+.content aside figure img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+}
+
+.content aside figure figcaption {
+    color: white;
+    font: large 'Times New Roman', Times, serif;
+}
+
+.content main {
+    flex: 1;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .8rem;
+}
+
+.gallery figure {
+    margin: 5px 0px 5px 0px;
+    width: 22vw;
+    background-color: gainsboro;
+    padding: .3rem;
+}
+
+.gallery figure img {
+    width: 100%;
+    height: 50vh;
+    margin: 0;
+}
+
+.gallery figure figcaption {
+    text-align: center;
+    padding: .7rem;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font: 'Times New Roman', Times, serif;
+}
+
+.gallery figure figcaption:hover {
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 30vh;
+}
